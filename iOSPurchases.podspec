@@ -18,8 +18,8 @@ The best ever framework
   spec.swift_version = "5.0"
 
   spec.source       = { :git => "https://github.com/Faktorealchik/iOSPurchases.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Purchase/Core/**"
-  spec.resource_bundle = { 'Purchase' => ['Purchase/Assets/*.*'] }
+  spec.source_files  = "Classes", "iOSPurchases/Core/**"
+  spec.resource_bundle = { 'Purchase' => ['iOSPurchases/Assets/*.*'] }
   
   # spec.resources = "Purchase/Support/**"
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
