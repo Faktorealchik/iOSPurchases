@@ -22,6 +22,8 @@ class Api {
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         request.httpBody = try? req.jsonData()
+        request.setValue("application/json", forHTTPHeaderField: "Content-type")
+        request.addValue("application/json", forHTTPHeaderField: "Accept")
         
         let session = URLSession(configuration: .default)
         session.dataTask(with: request) { (data, response, error) in
