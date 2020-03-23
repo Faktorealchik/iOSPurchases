@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "iOSPurchases"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.4"
   spec.summary      = "Purchase framework to buy, restore and verify products"
   spec.description  = <<-DESC
 The best ever framework
